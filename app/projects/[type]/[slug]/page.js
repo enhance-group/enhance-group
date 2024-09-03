@@ -5,7 +5,7 @@ import {
   PHD_PROJECTS,
 } from "../../../../components/data";
 import Image from "next/image";
-import { oxanium } from "../../../../components/fonts";
+import { oxanium } from "../../../../utils/fonts";
 
 export default function ProjectPage({ params }) {
   const { slug } = params;

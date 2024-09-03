@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { oxanium } from "../../components/fonts";
+import { oxanium } from "../../utils/fonts";
 
 export default function InitiativesPage() {
   return (
