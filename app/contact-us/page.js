@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { oxanium } from "../../components/fonts";
+import { oxanium } from "../../utils/fonts";
 import { FaClock, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import toast from "react-hot-toast";
 

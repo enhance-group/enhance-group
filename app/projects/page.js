@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FaAngleRight } from "react-icons/fa";
-import { oxanium } from "../../components/fonts";
+import { oxanium } from "../../utils/fonts";
 import { TYPES_OF_PROJECTS } from "../../components/data";
 
 export default function Projects() {
