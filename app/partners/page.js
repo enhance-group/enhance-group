@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 import { PARTNERS } from "../../components/data";
-import { oxanium } from "../../components/fonts";
+import { oxanium } from "../../utils/fonts";
 
 export default function Partners() {
   const [currentIndex, setCurrentIndex] = useState(0);

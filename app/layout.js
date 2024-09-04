@@ -1,6 +1,6 @@
 import "./globals.css";
 
-import { roboto } from "../components/fonts";
+import { roboto } from "../utils/fonts";
 import Navigation from "../components/Navigation";
 import { Toaster } from "react-hot-toast";
 import { SpeedInsights } from "@vercel/speed-insights/next";

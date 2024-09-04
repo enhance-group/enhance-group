@@ -5,7 +5,7 @@ import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { FaFile } from "react-icons/fa";
 import { RxDotFilled } from "react-icons/rx";
-import { oxanium } from "../../components/fonts";
+import { oxanium } from "../../utils/fonts";
 import {
   MASTER_PROJECTS,
   RESEARCH_PROJECTS,

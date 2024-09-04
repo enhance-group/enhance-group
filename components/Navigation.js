@@ -6,7 +6,7 @@ import { NAV_LINKS } from "./data";
 import { FaAngleDown, FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 import Image from "next/image";
-import { oxanium } from "./fonts";
+import { oxanium } from "../utils/fonts";
 
 const Navigation = () => {
   const pathname = usePathname();
