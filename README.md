@@ -2,6 +2,10 @@
 
 **TODO:**
 
+Vercel:
+
+- [ ] Check the logs for Module Not Found on images.
+
 Navbar:
 
 - [ ] Active classes for navigation links.
