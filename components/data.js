@@ -1,21 +1,21 @@
 // INITIATIVES IMAGES
-import postGraduation from "/public/initiatives/initiativesimage.png";
+import postGraduation from "../public/initiatives/initiativesimage.png";
 // TEAM IMAGES
-import asantos from "/public/team/asantos.png";
-import tribeiro from "/public/team/tribeiro.png";
-import acalapez from "/public/team/acalapez.png";
-import lcerqueira from "/public/team/lcerqueira.jpg";
-import iviegas from "/public/team/iviegas.png";
-import brodrigues from "/public/team/brodrigues.png";
-import vprincipe from "/public/team/vprincipe.png";
+import asantos from "../public/team/asantos.png";
+import tribeiro from "../public/team/tribeiro.png";
+import acalapez from "../public/team/acalapez.png";
+import lcerqueira from "../public/team/lcerqueira.jpg";
+import iviegas from "../public/team/iviegas.png";
+import brodrigues from "../public/team/brodrigues.png";
+import vprincipe from "../public/team/vprincipe.png";
 // PROJECTS IMAGES
 import volta from "../public/projects/research/daravolta.png";
 import geforce from "../public/projects/research/geforce.png";
 import semasc from "../public/projects/research/semasc.png";
 import sopros from "../public/projects/research/sopros.png";
 // PARTNERS IMAGES
-import fpde from "/public/partners/fpde-logo.png";
-import bhout from "/public/partners/bhout.png";
+import fpde from "../public/partners/fpde-logo.png";
+import bhout from "../public/partners/bhout.png";
 
 function createSlug(title) {
   return title
