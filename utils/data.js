@@ -16,6 +16,9 @@ import sopros from "../public/projects/research/sopros.png";
 // PARTNERS IMAGES
 import fpde from "../public/partners/fpde-logo.png";
 import bhout from "../public/partners/bhout.png";
+// NEWS IMAGES
+import semascNews1 from "../public/News/semasc-news-1.jpg";
+import semascNews2 from "../public/News/semasc-news-2.jpg";
 
 function createSlug(title) {
   const specialChars = {
@@ -552,41 +555,82 @@ export const PARTNERS = [
 
 export const NEWS = [
   {
+    id: 0,
+    title: "SEMASC Project Transnational Meeting Held in Cascais",
+    slug: createSlug("SEMASC Project Transnational Meeting Held in Cascais"),
+    content: {
+      paragraph1:
+        "On April 16th and 17th, the city of Cascais, Portugal, hosted the transnational meeting of the SEMASC (Socioeconomic Model of Amateur Sports Clubs) project. The event brought together renowned researchers and association leaders from various countries, including Portugal, France, Lithuania, Luxembourg, Poland, Brazil, Ecuador, Argentina, and Chile. This project, funded by the Erasmus Sport program, aims to strengthen the socioeconomic path of amateur sports clubs in these countries.",
+      paragraph2:
+        "During the two-day meeting, productive discussions and strategic alignments were held, aimed at creating a socioeconomic analysis model in sports. Among the main objectives of the SEMASC project are conducting research on resilience factors of associative sports clubs' socioeconomic models, designing an online self-diagnostic tool for sports association leaders, and developing pedagogical tools to reinforce these models.",
+      paragraph3:
+        "The event, organized by the Faculty of Human Kinetics at the University of Lisbon, highlighted the importance of international collaboration for the project's success. The coordination was led by project coordinator Yann Carin, along with Portuguese representatives Tiago Ribeiro and Ana Santos. Among the participants were also André Calapez, Cingiene Vilma, Mindaugas Spokas, Igor Perechuda, Mateusz Tomanek, Arnaud Waquet, Marco Lorenzatti, Elodie Mangez, Julien Harmonier, and Eva Beccavin-Gouy, who contributed significantly to the discussions.",
+      paragraph4:
+        "With the success of this meeting, the SEMASC project takes an important step towards implementing its goals, reaffirming the fundamental role of amateur sports in strengthening communities and promoting social inclusion.",
+    },
+    date: "2024-04-18",
+    images: [semascNews1, semascNews2],
+  },
+  {
     id: 1,
-    title: "ENHANCE Group Lança Novo Estudo sobre Esports e Saúde Mental",
-    content:
-      "Pesquisadores do ENHANCE Group iniciam um estudo inovador sobre o impacto dos esports na saúde mental dos jogadores profissionais.",
-    date: "2023-05-20",
-    slug: createSlug(
-      "ENHANCE Group Lança Novo Estudo sobre Esports e Saúde Mental"
-    ),
+    title: "ENHANCE Group Participation in the iWorkinSport Fair",
+    slug: createSlug("ENHANCE Group Participation in the iWorkinSport Fair"),
+    date: "2024-06-05",
+    content: {
+      paragraph1:
+        "In early June, the ENHANCE research group participated in the iWorkinSport fair, held in Lausanne, Switzerland. This event, recognized as one of the leading job fairs in the sports industry, provided an excellent opportunity for students and professionals to connect with important organizations in the sector, such as FIBA, World Aquatics, and the International Olympic Committee (IOC).",
+      paragraph2:
+        "The visit was coordinated by Professor Tiago Ribeiro, who led the students of the GOALS - Erasmus Mundus Master in Sport Management program at the fair. Participation in iWorkinSport allowed students to interact with representatives from major sports entities, expanding their networks and gaining valuable insights into the dynamics and demands of the sports job market.",
+      paragraph3:
+        "During their stay in Lausanne, the students also had the opportunity to visit the Olympic Museum and the IOC headquarters, further enriching their experience.",
+    },
   },
   {
     id: 2,
-    title: "Parceria entre ENHANCE e Liga Portuguesa de Esports Anunciada",
+    title: "The Rise of Esports in Brazil",
+    slug: createSlug("The Rise of Esports in Brazil"),
+    date: "2024-02-15",
     content:
-      "O ENHANCE Group firma parceria estratégica com a Liga Portuguesa de Esports para promover pesquisas e desenvolvimento no cenário competitivo.",
-    date: "2023-05-18",
-    slug: createSlug(
-      "Parceria entre ENHANCE e Liga Portuguesa de Esports Anunciada"
-    ),
+      "Esports has been growing rapidly in Brazil, with more investments and professional teams emerging...",
   },
   {
     id: 3,
-    title: "Conferência Internacional de Esports Será Realizada em Lisboa",
+    title: "Mental Health in Gaming: Breaking the Stigma",
+    slug: createSlug("Mental Health in Gaming: Breaking the Stigma"),
+    date: "2024-03-10",
     content:
-      "ENHANCE Group co-organiza conferência internacional sobre o futuro dos esports, reunindo especialistas de todo o mundo em Lisboa.",
-    date: "2023-05-15",
-    slug: createSlug(
-      "Conferência Internacional de Esports Será Realizada em Lisboa"
-    ),
+      "The gaming community is increasingly addressing mental health issues, with initiatives to support players...",
   },
   {
     id: 4,
-    title: "Novo Programa de Bolsas para Estudantes de Esports",
+    title: "New Technologies Revolutionizing Game Development",
+    slug: createSlug("New Technologies Revolutionizing Game Development"),
+    date: "2024-03-05",
     content:
-      "ENHANCE anuncia programa de bolsas para estudantes interessados em pesquisa acadêmica sobre esports e tecnologias emergentes.",
-    date: "2023-05-10",
-    slug: createSlug("Novo Programa de Bolsas para Estudantes de Esports"),
+      "From AI to virtual reality, new technologies are changing the way games are developed and experienced...",
+  },
+  {
+    id: 5,
+    title: "The Impact of Streaming on the Gaming Industry",
+    slug: createSlug("The Impact of Streaming on the Gaming Industry"),
+    date: "2024-02-20",
+    content:
+      "Streaming platforms have transformed how games are marketed and consumed, creating new opportunities...",
+  },
+  {
+    id: 6,
+    title: "Diversity and Inclusion in the Gaming World",
+    slug: createSlug("Diversity and Inclusion in the Gaming World"),
+    date: "2023-02-25",
+    content:
+      "The gaming industry is making strides towards greater diversity and inclusion, both in game content and workforce...",
+  },
+  {
+    id: 7,
+    title: "The Future of Mobile Gaming",
+    slug: createSlug("The Future of Mobile Gaming"),
+    date: "2023-02-30",
+    content:
+      "With advancements in smartphone technology, mobile gaming is set to reach new heights in graphics and gameplay...",
   },
 ];
