@@ -2,6 +2,7 @@ import "./globals.css";
 
 import { roboto } from "../utils/fonts";
 import Navigation from "../components/Navigation";
+import ResponsiveNavigation from "../components/ResponsiveNavigation";
 import { Toaster } from "react-hot-toast";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -21,8 +22,8 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/android-chrome-192x192.png" sizes="192x192" />
         <link rel="icon" href="/android-chrome-512x512.png" sizes="512x512" />
       </head>
-      <body className="md:flex-col md:flex md:h-dvh">
-        <Navigation />
+      <body className="md:flex-col md:flex md:h-dvh bg-neutral-900">
+        <ResponsiveNavigation />
         <div className="flex items-center justify-center flex-1 max-w-screen-xl mx-auto">
           <Toaster position="bottom-right" />
           {children}
