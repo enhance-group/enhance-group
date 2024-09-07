@@ -1,6 +1,10 @@
 import Link from "next/link";
-import { MASTER_PROJECTS, RESEARCH_PROJECTS, PHD_PROJECTS } from "./data";
-import { oxanium } from "./fonts";
+import {
+  MASTER_PROJECTS,
+  RESEARCH_PROJECTS,
+  PHD_PROJECTS,
+} from "../utils/data";
+import { oxanium } from "../utils/fonts";
 import { FaAngleRight } from "react-icons/fa";
 
 export default function ProjectsList({ type }) {

@@ -11,7 +11,7 @@ import {
   RESEARCH_PROJECTS,
   PHD_PROJECTS,
   TEAM,
-} from "../../components/data";
+} from "../../utils/data";
 
 export default function Team() {
   const [currentIndex, setCurrentIndex] = useState(0);

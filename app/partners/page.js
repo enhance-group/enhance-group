@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import { PARTNERS } from "../../components/data";
+import { PARTNERS } from "../../utils/data";
 import { oxanium } from "../../utils/fonts";
 
 export default function Partners() {

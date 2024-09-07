@@ -3,7 +3,7 @@ import {
   MASTER_PROJECTS,
   RESEARCH_PROJECTS,
   PHD_PROJECTS,
-} from "../../../../components/data";
+} from "../../../../utils/data";
 import Image from "next/image";
 import { oxanium } from "../../../../utils/fonts";
 

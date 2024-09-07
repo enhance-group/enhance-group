@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { INITIATIVES } from "./data";
-import { oxanium } from "./fonts";
+import { INITIATIVES } from "../utils/data";
+import { oxanium } from "../utils/fonts";
 
 export default function InitiativesList({ slug }) {
   const initiative = INITIATIVES.find((initiative) => initiative.slug === slug);
