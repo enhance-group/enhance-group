@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { NAV_LINKS } from "./data";
+import { NAV_LINKS } from "../utils/data";
 import { FaAngleDown, FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 import Image from "next/image";
@@ -30,8 +30,8 @@ const Navigation = () => {
       <div className="flex justify-between px-2 py-4 md:mx-auto md:w-fit">
         <Link href="/" className="text-neutral-300" onClick={closeNavbar}>
           <Image
-            src="/logos/enhancelogo.png"
-            alt="Enhance Group Logo"
+            src="/Logos/SIMERG.png"
+            alt="SIMERG Logo"
             width={300}
             height={100}
             className="sm:w-auto"
@@ -39,17 +39,17 @@ const Navigation = () => {
             quality={100}
           />
         </Link>
-        <button
-          aria-label="Aria menu button"
-          onClick={toggleNavbar}
-          className="text-neutral-300 md:hidden"
-        >
+        <button aria-label="Aria menu button" onClick={toggleNavbar} className="text-neutral-300 md:hidden">
           {isActive ? <FaTimes size={18} /> : <FaBars size={18} />}
         </button>
       </div>
       <div className="flex justify-end">
         <div
-          className={`${oxanium.className} && ${isActive ? "flex flex-col z-50 py-4 w-full fixed min-h-svh overflow-hidden space-y-10 items-center justify-center bg-neutral-900 text-xl" : "hidden md:flex md:w-fit md:mx-auto md:space-x-8"} `}
+          className={`${oxanium.className} && ${
+            isActive
+              ? "flex flex-col z-50 py-4 w-full fixed min-h-svh overflow-hidden space-y-10 items-center justify-center bg-neutral-900 text-xl"
+              : "hidden md:flex md:w-fit md:mx-auto md:space-x-8"
+          } `}
         >
           {NAV_LINKS.map((link, index) => (
             <div key={link.path} className="group group/item">
