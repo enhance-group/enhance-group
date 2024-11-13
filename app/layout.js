@@ -2,13 +2,12 @@ import "./globals.css";
 
 import { roboto } from "../utils/fonts";
 import Navigation from "../components/Navigation";
-import ResponsiveNavigation from "../components/ResponsiveNavigation";
 import { Toaster } from "react-hot-toast";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
-  title: "Enhance Group - Esports and Sports Management Research Group",
-  description: "Esports and Sports Management Research Group",
+  title: "SIMERG - SPORTS, INNOVATION, MANAGEMENT AND ESPORTS RESEARCH GROUP",
+  description: "SIMERG - SPORTS, INNOVATION, MANAGEMENT AND ESPORTS RESEARCH GROUP",
 };
 
 export default function RootLayout({ children }) {
@@ -23,7 +22,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/android-chrome-512x512.png" sizes="512x512" />
       </head>
       <body className="md:flex-col md:flex md:h-dvh bg-neutral-900">
-        <ResponsiveNavigation />
+        <Navigation />
         <div className="flex items-center justify-center flex-1 max-w-screen-xl mx-auto">
           <Toaster position="bottom-right" />
           {children}

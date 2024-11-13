@@ -1,21 +1,21 @@
 // INITIATIVES IMAGES
 import postGraduation from "../public/initiatives/initiativesimage.png";
 // TEAM IMAGES
-import asantos from "../public/team/asantos.png";
-import tribeiro from "../public/team/tribeiro.png";
-import acalapez from "../public/team/acalapez.png";
-import lcerqueira from "../public/team/lcerqueira.jpg";
-import iviegas from "../public/team/iviegas.png";
-import brodrigues from "../public/team/brodrigues.png";
-import vprincipe from "../public/team/vprincipe.png";
+import asantos from "../public/Team/asantos.png";
+import tribeiro from "../public/Team/tribeiro.png";
+import acalapez from "../public/Team/acalapez.png";
+import lcerqueira from "../public/Team/lcerqueira.jpg";
+import iviegas from "../public/Team/iviegas.png";
+import brodrigues from "../public/Team/brodrigues.png";
+import vprincipe from "../public/Team/vprincipe.png";
 // PROJECTS IMAGES
-import volta from "../public/projects/research/daravolta.png";
-import geforce from "../public/projects/research/geforce.png";
-import semasc from "../public/projects/research/semasc.png";
-import sopros from "../public/projects/research/sopros.png";
+import volta from "../public/Projects/research/daravolta.png";
+import geforce from "../public/Projects/research/geforce.png";
+import semasc from "../public/Projects/research/semasc.png";
+import sopros from "../public/Projects/research/sopros.png";
 // PARTNERS IMAGES
-import fpde from "../public/partners/fpde-logo.png";
-import bhout from "../public/partners/bhout.png";
+import fpde from "../public/Partners/fpde-logo.png";
+import bhout from "../public/Partners/bhout.png";
 // NEWS IMAGES
 import semascNews1 from "../public/News/semasc-news-1.jpg";
 import semascNews2 from "../public/News/semasc-news-2.jpg";
@@ -98,8 +98,7 @@ export const MASTER_PROJECTS = [
       "The results show that the quality of the physical environment dimensions, holds influence over the affective responses, revisit intention and positive word of mouth of the event spectators. Exception made on the equipment’s dimension, which did not have a relevant impact over the spectators’ emotion s and behavioural intentions.",
     paragraph4:
       "Furthermore, the accessibility dimension, as an antecedent of the spectator affective responses and behavioral intentions, should be included in future models. The practical implications of this study propose the improvement of the physical environment dimensions, so that a consequent impact on affective responses, leads to a retain spectators on a future edition of an eSports event.",
-    keywords:
-      "Physical Environment; Affective Responses; Consumption; Esports; Events;",
+    keywords: "Physical Environment; Affective Responses; Consumption; Esports; Events;",
     year: 2023,
     author: "Luís Cerqueira",
     professorAdvisor: "Tiago Ribeiro",
@@ -121,8 +120,7 @@ export const MASTER_PROJECTS = [
       "Results revealed that fans’ identity with Diogo Jota had a significant positive effect on their identity with the esports team, and team identity showed a positive and significant predictor of their behavioural intentions towards the sponsor brand. Findings also suggest that the effects of fans’ identity with Diogo Jota on brand word-of-mouth and brand purchase intention are positive and significant in the presence of the mediating variable – team identity.",
     paragraph4:
       "Due to the lower score of team identity, managerial implications address the need to explore and reinforce the social role of the fan’s identity with Diogo Jota's esports team.",
-    keywords:
-      "Social Identity; Influencers; Consumption; Esports; Sponsorship;",
+    keywords: "Social Identity; Influencers; Consumption; Esports; Sponsorship;",
     year: 2023,
     author: "Shaina Mohamed",
     professorAdvisor: "Tiago Ribeiro",
@@ -142,8 +140,7 @@ export const RESEARCH_PROJECTS = [
       "An ethnographic project, lead by Group Coordinator Ana Santos, that looked to examine the role of bikes in mobility through the revisitation of the first Volta a Portugal (Portugal's number one Cycling Competition).",
     paragraph2:
       "The 1927 Volta was a competition shaped by feelings of identity and, therefore, easily recognized by the social imaginary. The project seeks to understand the contemporary dynamics of bicycle usage and the challenges posed by the interaction of social, physical, and virtual spaces.",
-    keywords:
-      "Cycling; Ethnography; Volta a Portugal; Urban, Social and Virtual Spaces;",
+    keywords: "Cycling; Ethnography; Volta a Portugal; Urban, Social and Virtual Spaces;",
     author: "Ana Santos",
     website: "https://daravolta.fmh.ulisboa.pt/",
     book: "https://www.wook.pt/livro/volta-a-portugal-em-bicicleta-ana-santos/11257658",
@@ -191,8 +188,7 @@ export const RESEARCH_PROJECTS = [
   },
   {
     id: 3,
-    title:
-      "SOPROS - Assessing, Evaluating and Implementing Athletes' Social Protection in Olympic Sports",
+    title: "SOPROS - Assessing, Evaluating and Implementing Athletes' Social Protection in Olympic Sports",
     description:
       "The SOPROS project responds to the pressing need for enhanced social protection standards for elite athletes, addressing a range of issues highlighted by recent incidents and policy initiatives. With a focus on Olympic sports, SOPROS aims to promote integrity and values by assessing, evaluating, and implementing social protection measures. Building upon the groundwork laid by the EMPLOYS project, SOPROS will develop Self-Assessment Tools for athletes, sport governing bodies, and public authorities to gather unique data, analyze findings in an Evaluation Report, and produce a Manual for the Implementation of Athletes’ Social Protection. Additionally, SOPROS will pilot negotiation processes in Olympic elite sports, offering insights into their benefits and challenges, and will facilitate workshops and conferences to engage stakeholders at national and EU levels. Through collaboration with academic and policy partners, SOPROS endeavors to shape tangible actions that safeguard the well-being and rights of elite athletes.",
     paragraph1:
@@ -201,8 +197,7 @@ export const RESEARCH_PROJECTS = [
       "Building upon the groundwork laid by the EMPLOYS project, SOPROS will develop Self-Assessment Tools for athletes, sport governing bodies, and public authorities to gather unique data, analyze findings in an Evaluation Report, and produce a Manual for the Implementation of Athletes’ Social Protection.",
     paragraph3:
       "Additionally, SOPROS will pilot negotiation processes in Olympic elite sports, offering insights into their benefits and challenges, and will facilitate workshops and conferences to engage stakeholders at national and EU levels. Through collaboration with academic and policy partners, SOPROS endeavors to shape tangible actions that safeguard the well-being and rights of elite athletes.",
-    keywords:
-      "Athletes; Social Rights; Social Security; Athlete Protection; Governance; Safeguarding;",
+    keywords: "Athletes; Social Rights; Social Security; Athlete Protection; Governance; Safeguarding;",
     researchers: "Tiago Ribeiro & Luiz Haas",
     image: sopros,
     slug: createSlug("SOPROS"),
@@ -240,8 +235,7 @@ export const PHD_PROJECTS = [
       "Our research will proceed in four phases. The first phase involves an integrative review of the existing literature on toxic behaviours and their impact on players. In the second phase, we will collect and analyze players' life stories to gain deep insights into how toxic behaviours have manifested and evolved in their gaming experiences. The final phase will involve developing and validating a comprehensive scale for measuring toxic consumption behaviours and employing structural equation modelling to analyze the relationships among toxic behaviours, need satisfaction, well-being, and toxic consumption. Finally, we will look to disseminate our findings through civil society and bear an impact on the esports field in Portugal.",
     paragraph4:
       "Through this multi-faceted approach, our study aims to contribute to a deeper understanding of the psychosocial dynamics in esports, providing valuable insights for improving player experiences, fostering healthier gaming communities and enhancing game publishers' product strategy with a focus on their marketing endeavours.",
-    keywords:
-      "Toxic Behaviour; Esports; Need Satisfaction; Well-Being; Consumption;",
+    keywords: "Toxic Behaviour; Esports; Need Satisfaction; Well-Being; Consumption;",
     university: "University of Lisbon, Faculty of Human Kinetics",
     author: "André Calapez",
     professorAdvisor: "Tiago Ribeiro",
@@ -269,14 +263,11 @@ export const PHD_PROJECTS = [
     author: "Luís Cerqueira",
     co_advisor: "Vítor Sobral",
     professorAdvisor: "Tiago Ribeiro",
-    slug: createSlug(
-      "Esports' events leverage and a new approach: Digital Leverage"
-    ),
+    slug: createSlug("Esports' events leverage and a new approach: Digital Leverage"),
   },
   {
     id: 2,
-    title:
-      "Web3 and Sports: How blockchain technology can remodel sports business models",
+    title: "Web3 and Sports: How blockchain technology can remodel sports business models",
     description:
       "The sports industry, known for its dynamic nature and passionate fan base, is undergoing significant transformation with the rise of Web3 technologies. This PhD project investigates the interplay between blockchain technology, fan engagement, and business models of sports organizations. By leveraging blockchain's decentralized and transparent nature, we explore how Web3 can enhance fan participation, improve governance, and create new revenue streams. Utilizing the Decentralized Autonomous Organizations (DAOs) and smart contracts framework, we analyze how these technologies can democratize decision-making processes and enhance operational transparency within sports organizations. Guided by theories of technological innovation, collaborative governance, and stakeholder engagement, this research seeks to uncover the potential of Web3 to revolutionize the sports industry and apply organizational theory to understand how sports entities can adapt and integrate these technologies. The goal is to comprehensively understand how Web3 technologies can enhance the sports industry, offering practical recommendations for sports organizations and policymakers. By disseminating our findings through academic publications, industry conferences, and collaborations, we aim to contribute to the sports sector's sustainable and innovative growth.",
     paragraph1:
@@ -293,9 +284,7 @@ export const PHD_PROJECTS = [
     author: "Vitor Principe",
     professorAdvisor: "Rodolfo Nunes",
     co_advisor: "Tiago Ribeiro",
-    slug: createSlug(
-      "Web3 and Sports: How blockchain technology can remodel sports business models"
-    ),
+    slug: createSlug("Web3 and Sports: How blockchain technology can remodel sports business models"),
   },
 ];
 
@@ -411,8 +400,7 @@ export const TEAM = [
       "Born in Santarém in 1994, he graduated in Sports Science from FMH/UL (2016) and completed a master’s degree in Sports Management from FMH/UL (2023).",
     paragraph2:
       "He is currently taking place in a doctoral degree in Sports Management at FMH/UL. He is currently working as a Portuguese Army Officer, more specifically in the military physical conditioning field, since 2018.",
-    paragraph3:
-      "His research scope includes esports events, service quality and event leverage, and video games.",
+    paragraph3: "His research scope includes esports events, service quality and event leverage, and video games.",
   },
   {
     id: 4,
@@ -425,8 +413,7 @@ export const TEAM = [
       "Born in 1988, she graduated Sports Science from FMH/UL (2013) and completed a master’s degree in Sports Management from FMH/UL (2017). At the moment she is pursuing a doctoral degree in Sports Management at FMH/UL.",
     paragraph2:
       "Inês currently works at National Paralympic Committee of Portugal as a sport manager and she is the sports department coordinator.",
-    paragraph3:
-      "The scope of her research concentrates on accessibility to sport by people with disabilities.",
+    paragraph3: "The scope of her research concentrates on accessibility to sport by people with disabilities.",
   },
   {
     id: 5,
@@ -434,13 +421,13 @@ export const TEAM = [
     image: brodrigues,
     position: "Esports Consultant",
     translatedDescription:
-      "Born in Barreiro in 2002, Bruno started working in esports at sixteen, first managing amateur teams. In 2019, while in highschool, he created the first scholastic esports club in Portugal. Throughout the years he has worked with and for many different esports organizations including Blast, Logitech, Bhout, RTP Arena, Advnce Sic, Dot Gaming, Esportzy, Portuguese Esports Association, FTW Esports, EGN Esports and others. Currently, he’s finishing his bachelor’s degree in sports management at FMH while consulting for the ENHANCE Group, generating leads and providing industry insights for the Esports and Digital Communities post-graduation course and the National Esports Laboratory.",
+      "Born in Barreiro in 2002, Bruno started working in esports at sixteen, first managing amateur teams. In 2019, while in highschool, he created the first scholastic esports club in Portugal. Throughout the years he has worked with and for many different esports organizations including Blast, Logitech, Bhout, RTP Arena, Advnce Sic, Dot Gaming, Esportzy, Portuguese Esports Association, FTW Esports, EGN Esports and others. Currently, he’s finishing his bachelor’s degree in sports management at FMH while consulting for the SIMERG, generating leads and providing industry insights for the Esports and Digital Communities post-graduation course and the National Esports Laboratory.",
     paragraph1:
       "Born in Barreiro in 2002, Bruno started working in esports at sixteen, first managing amateur teams. In 2019, while in highschool, he created the first scholastic esports club in Portugal.",
     paragraph2:
       "Throughout the years he has worked with and for many different esports organizations including Blast, Logitech, Bhout, RTP Arena, Advnce Sic, Dot Gaming, Esportzy, Portuguese Esports Association, FTW Esports, EGN Esports and others.",
     paragraph3:
-      "Currently, he’s finishing his bachelor’s degree in sports management at FMH while consulting for the ENHANCE Group, generating leads and providing industry insights for the Esports and Digital Communities post-graduation course and the National Esports Laboratory.",
+      "Currently, he’s finishing his bachelor’s degree in sports management at FMH while consulting for the SIMERG, generating leads and providing industry insights for the Esports and Digital Communities post-graduation course and the National Esports Laboratory.",
   },
   {
     id: 6,
@@ -516,11 +503,11 @@ export const INITIATIVES = [
     id: 2,
     title: "Empower - Giving back on the move",
     description:
-      "EMPOWER is an initiative aimed at fostering connections among local and national stakeholders in the esports field. Through a curated series of talks, conferences, and educational sessions, EMPOWER seeks to enhance understanding and development within the esports landscape. Specifically, the project endeavors to facilitate global comprehension and the establishment of structures conducive to nurturing young players. Central to this endeavor is the integration of players into youth programs with ties to the Faculty of Human Kinetics and the ENHANCE research group, thereby bridging academic research with practical esports education and development. More information will be shared briefly.",
+      "EMPOWER is an initiative aimed at fostering connections among local and national stakeholders in the esports field. Through a curated series of talks, conferences, and educational sessions, EMPOWER seeks to enhance understanding and development within the esports landscape. Specifically, the project endeavors to facilitate global comprehension and the establishment of structures conducive to nurturing young players. Central to this endeavor is the integration of players into youth programs with ties to the Faculty of Human Kinetics and the SIMERG, thereby bridging academic research with practical esports education and development. More information will be shared briefly.",
     paragraph1:
       "EMPOWER is an initiative aimed at fostering connections among local and national stakeholders in the esports field. Through a curated series of talks, conferences, and educational sessions, EMPOWER seeks to enhance understanding and development within the esports landscape.",
     paragraph2:
-      "Specifically, the project endeavors to facilitate global comprehension and the establishment of structures conducive to nurturing young players. Central to this endeavor is the integration of players into youth programs with ties to the Faculty of Human Kinetics and the ENHANCE research group, thereby bridging academic research with practical esports education and development.",
+      "Specifically, the project endeavors to facilitate global comprehension and the establishment of structures conducive to nurturing young players. Central to this endeavor is the integration of players into youth programs with ties to the Faculty of Human Kinetics and the SIMERG, thereby bridging academic research with practical esports education and development.",
     paragraph3: "More information will be shared briefly.",
     slug: createSlug("Empower - Giving back on the move"),
   },
@@ -532,9 +519,9 @@ export const PARTNERS = [
     image: fpde,
     name: "Federação Portuguesa de Desportos Eletrónicos",
     description:
-      "The ENHANCE group and the Portuguese Electronic Sports Federation (PESF) have formalized a protocol of strategic collaboration in the field of esports, to promote studies and scientific research in this domain. Both entities are working together to establish the first national laboratory of scientific research in electronic sports - the Esports Lab. This multidisciplinary facility is dedicated to driving the development of esports through applied research, technology development, education, and innovation, thereby fostering research growth in esports in Portugal. Additionally, this partnership includes the launch of a Postgraduate Course in Esports and Digital Communities, as well as the integration of students from FMH UL into internships at the Portuguese Electronic Sports Federation.",
+      "The SIMERG and the Portuguese Electronic Sports Federation (PESF) have formalized a protocol of strategic collaboration in the field of esports, to promote studies and scientific research in this domain. Both entities are working together to establish the first national laboratory of scientific research in electronic sports - the Esports Lab. This multidisciplinary facility is dedicated to driving the development of esports through applied research, technology development, education, and innovation, thereby fostering research growth in esports in Portugal. Additionally, this partnership includes the launch of a Postgraduate Course in Esports and Digital Communities, as well as the integration of students from FMH UL into internships at the Portuguese Electronic Sports Federation.",
     paragraph1:
-      "The ENHANCE group and the Portuguese Electronic Sports Federation (PESF) have formalized a protocol of strategic collaboration in the field of esports, to promote studies and scientific research in this domain.",
+      "The SIMERG and the Portuguese Electronic Sports Federation (PESF) have formalized a protocol of strategic collaboration in the field of esports, to promote studies and scientific research in this domain.",
     paragraph2:
       "Both entities are working together to establish the first national laboratory of scientific research in electronic sports - the Esports Lab. This multidisciplinary facility is dedicated to driving the development of esports through applied research, technology development, education, and innovation, thereby fostering research growth in esports in Portugal.",
     paragraph3:
@@ -545,9 +532,9 @@ export const PARTNERS = [
     image: bhout,
     name: "BHOUT",
     description:
-      "A protocol was designed between the ENHANCE Group and BHOUT, a Portuguese startup pioneering in the intersection between gaming and fitness, to explore the esports’ effects on the human body and use insights to gain knowledge on how to leverage innovating products onto better esports performance and individual well-being.",
+      "A protocol was designed between the SIMERG and BHOUT, a Portuguese startup pioneering in the intersection between gaming and fitness, to explore the esports’ effects on the human body and use insights to gain knowledge on how to leverage innovating products onto better esports performance and individual well-being.",
     paragraph1:
-      "A protocol was designed between the ENHANCE Group and BHOUT, a Portuguese startup pioneering in the intersection between gaming and fitness, to explore the esports’ effects on the human body and use insights to gain knowledge on how to leverage innovating products onto better esports performance and individual well-being.",
+      "A protocol was designed between the SIMERG and BHOUT, a Portuguese startup pioneering in the intersection between gaming and fitness, to explore the esports’ effects on the human body and use insights to gain knowledge on how to leverage innovating products onto better esports performance and individual well-being.",
     paragraph2: "",
     paragraph3: "",
   },
@@ -573,12 +560,12 @@ export const NEWS = [
   },
   {
     id: 1,
-    title: "ENHANCE Group Participation in the iWorkinSport Fair",
-    slug: createSlug("ENHANCE Group Participation in the iWorkinSport Fair"),
+    title: "SIMERG Participation in the iWorkinSport Fair",
+    slug: createSlug("SIMERG Participation in the iWorkinSport Fair"),
     date: "2024-06-05",
     content: {
       paragraph1:
-        "In early June, the ENHANCE research group participated in the iWorkinSport fair, held in Lausanne, Switzerland. This event, recognized as one of the leading job fairs in the sports industry, provided an excellent opportunity for students and professionals to connect with important organizations in the sector, such as FIBA, World Aquatics, and the International Olympic Committee (IOC).",
+        "In early June, the SIMERG participated in the iWorkinSport fair, held in Lausanne, Switzerland. This event, recognized as one of the leading job fairs in the sports industry, provided an excellent opportunity for students and professionals to connect with important organizations in the sector, such as FIBA, World Aquatics, and the International Olympic Committee (IOC).",
       paragraph2:
         "The visit was coordinated by Professor Tiago Ribeiro, who led the students of the GOALS - Erasmus Mundus Master in Sport Management program at the fair. Participation in iWorkinSport allowed students to interact with representatives from major sports entities, expanding their networks and gaining valuable insights into the dynamics and demands of the sports job market.",
       paragraph3:
@@ -590,8 +577,7 @@ export const NEWS = [
     title: "The Rise of Esports in Brazil",
     slug: createSlug("The Rise of Esports in Brazil"),
     date: "2024-02-15",
-    content:
-      "Esports has been growing rapidly in Brazil, with more investments and professional teams emerging...",
+    content: "Esports has been growing rapidly in Brazil, with more investments and professional teams emerging...",
   },
   {
     id: 3,
@@ -606,16 +592,14 @@ export const NEWS = [
     title: "New Technologies Revolutionizing Game Development",
     slug: createSlug("New Technologies Revolutionizing Game Development"),
     date: "2024-03-05",
-    content:
-      "From AI to virtual reality, new technologies are changing the way games are developed and experienced...",
+    content: "From AI to virtual reality, new technologies are changing the way games are developed and experienced...",
   },
   {
     id: 5,
     title: "The Impact of Streaming on the Gaming Industry",
     slug: createSlug("The Impact of Streaming on the Gaming Industry"),
     date: "2024-02-20",
-    content:
-      "Streaming platforms have transformed how games are marketed and consumed, creating new opportunities...",
+    content: "Streaming platforms have transformed how games are marketed and consumed, creating new opportunities...",
   },
   {
     id: 6,
